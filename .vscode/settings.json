@@ -1,0 +1,10 @@
+{
+    "workbench.colorTheme": "Predawn",
+    "workbench.iconTheme": "ayu",
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "workbench.settings.editor": "json",
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.showExecutionMessage": false,
+    "code-runner.saveFileBeforeRun": true
+}
