@@ -49,3 +49,5 @@ class Settings:
         self.bullet_speed *= self.speedup_scale
         self.alien_speed *= self.speedup_scale
         self.alien_points = int(self.score_scale * self.alien_points)
+
+        print(self.alien_points)
