@@ -85,6 +85,9 @@ class AlienInvasion:
             self._create_fleet()
             self.ship.center_ship()
 
+            # hide mouse cursor
+            pygame.mouse.set_visible(False)
+
     def _check_keydown_events(self, event):
         """respond to keypresses"""
         if event.key == pygame.K_RIGHT:
@@ -221,6 +224,7 @@ class AlienInvasion:
             self.ship.center_ship()
         else:
             self.states.game_active = False
+            pygame.mouse.set_visible(True)
 
         # pause
         sleep(0.5)
